@@ -55,7 +55,7 @@ const steps = [
 
 const plans = [
   { name: 'Launch', desc: 'For local businesses ready to get found and start generating calls.', price: <><span className="from">Starting at</span>$<span>—</span><small>/mo</small></>, feats: ['Google Business Profile optimization', 'Local SEO & citations', 'Baseline AI-visibility setup', 'Review engine & monthly report'], cta: <Link to="/contact" className="btn btn-line">Get Started</Link> },
-  { name: 'Growth', feat: true, desc: 'Our most popular program — full Google + AI visibility, done for you.', price: <><span className="from">Starting at</span>$<span>—</span><small>/mo</small></>, feats: ['Everything in Launch', 'Full GEO / AI-visibility program', 'Answer-ready content & schema', 'Conversion website pages', 'Call tracking & strategy calls'], cta: <Link to="/contact" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>Book My Audit</Link> },
+  { name: 'Growth', feat: true, desc: 'Our most popular program — full Google + AI visibility, done for you.', price: <><span className="from">Starting at</span>$<span>—</span><small>/mo</small></>, feats: ['Everything in Launch', 'Full GEO / AI-visibility program', 'Answer-ready content & schema', 'Conversion website pages', 'Call tracking & strategy calls'], cta: <a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>Book a Demo</a> },
   { name: 'Dominate', desc: 'For market leaders who want total visibility across every channel.', price: <><span className="from">Custom</span>Let's talk</>, feats: ['Everything in Growth', 'Multi-location & service-area scale', 'Paid ads (Google & Meta)', 'Dedicated strategist & priority support'], cta: <Link to="/contact" className="btn btn-line">Contact Sales</Link> },
 ]
 
@@ -118,7 +118,7 @@ export default function Services() {
             </div>
           ))}
         </div>
-        <p style={{ textAlign: 'center', marginTop: 24, fontFamily: 'var(--mono)', fontSize: 12.5, color: 'var(--muted)' }}>Replace pricing with your numbers. All programs include the 90-day visibility guarantee.</p>
+        
       </div></section>
 
       <section className="section"><div className="wrap">

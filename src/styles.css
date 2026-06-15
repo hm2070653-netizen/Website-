@@ -112,7 +112,7 @@ header { position: sticky; top: 0; z-index: 60; background: rgba(255, 255, 255, 
 .badge-row { display: flex; gap: 10px; align-items: center; margin-bottom: 22px; flex-wrap: wrap }
 .pill { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; padding: 7px 14px; border-radius: 100px; background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .16); color: #dbe7f7; }
 .pill .stars { color: var(--orange); letter-spacing: 1px }
-.hero h1 { font-size: clamp(38px, 5.1vw, 62px); color: #fff; margin-bottom: 22px }
+.hero h1 { font-size: clamp(38px, 5.1vw, 58px); color: #fff; margin-bottom: 22px }
 .hero h1 .hl { color: var(--orange) }
 .hero h1 .u { position: relative; white-space: nowrap }
 .hero h1 .u::after { content: ""; position: absolute; left: 0; right: 0; bottom: .06em; height: .10em; background: var(--orange); border-radius: 4px; opacity: .9 }
