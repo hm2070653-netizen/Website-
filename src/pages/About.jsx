@@ -10,7 +10,7 @@ export default function About() {
           <div className="crumb"><Link to="/">Home</Link> / <span>About</span></div>
           <h1>We make local businesses the <span className="hl">obvious answer</span> — on Google and in AI.</h1>
           <p>Epic Agency is a specialist team built for the new shape of search. We get you ranked where customers look and recommended where they ask.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div>
       </section>
 
@@ -57,7 +57,7 @@ export default function About() {
         <div className="cta-band reveal"><div className="wrapper">
           <h2>Want this team in <span className="hl">your corner?</span></h2>
           <p>Book a free visibility audit and see exactly where you stand on Google and across AI assistants.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div></div>
       </div></section>
     </>

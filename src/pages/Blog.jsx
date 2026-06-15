@@ -112,7 +112,7 @@ export default function Blog() {
         <div className="cta-band reveal"><div className="wrapper">
           <h2>Prefer we just <span className="hl">do it for you?</span></h2>
           <p>Book a free visibility audit and we'll turn these strategies into results for your business.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div></div>
       </div></section>
     </>

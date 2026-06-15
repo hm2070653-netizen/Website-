@@ -67,7 +67,7 @@ export default function Services() {
           <div className="crumb"><Link to="/">Home</Link> / <span>Services</span></div>
           <h1>One team for <span className="hl">both kinds</span> of search.</h1>
           <p>Traditional SEO gets you ranked. Generative engine optimization gets you recommended. We run both as a single, measurable growth system.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div>
       </section>
 
@@ -125,7 +125,7 @@ export default function Services() {
         <div className="cta-band reveal"><div className="wrapper">
           <h2>Not sure which service you need? <span className="hl">Start with the audit.</span></h2>
           <p>We'll show you the gaps on Google and in AI answers, and exactly which fixes move the needle fastest.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div></div>
       </div></section>
     </>

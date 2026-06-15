@@ -22,7 +22,7 @@ export default function Industries() {
           <div className="crumb"><Link to="/">Home</Link> / <span>Industries</span></div>
           <h1>Local visibility for <span className="hl">service businesses</span>.</h1>
           <p>If your customers search before they buy, we can put you in front of them — on Google and in AI answers. Here's where we go deep.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div>
       </section>
 
@@ -61,7 +61,7 @@ export default function Industries() {
         <div className="cta-band reveal"><div className="wrapper">
           <h2>Ready to own your <span className="hl">local market?</span></h2>
           <p>Book a free audit and we'll show you where you stand against competitors on Google and in AI answers.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div></div>
       </div></section>
     </>

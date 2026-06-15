@@ -25,7 +25,7 @@ export default function Results() {
           <div className="crumb"><Link to="/">Home</Link> / <span>Results</span></div>
           <h1>Proof, <span className="hl">not promises</span>.</h1>
           <p>Real businesses that became the obvious choice in their market — in search and in AI answers. Replace with your own client stories and photos.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div>
       </section>
 
@@ -88,7 +88,7 @@ export default function Results() {
         <div className="cta-band reveal"><div className="wrapper">
           <h2>Your story could be <span className="hl">next.</span></h2>
           <p>Book a free visibility audit and we'll map the fastest path to results for your business.</p>
-          <CtaButtons />
+          <div className="ph-cta"><a href="https://calendly.com/maaz-epicagencyllc/15min?month=2026-06" className="btn btn-primary">Book a Demo <span className="arr">↗</span></a><Link to="/services" className="btn btn-ghost">See How We Work</Link></div>
         </div></div>
       </div></section>
     </>
