@@ -110,7 +110,7 @@ export default function Home() {
         <div className="wrap hero-inner">
           <div className="hero-copy">
             
-            <h1>Helping Tradespeople <span className="hl">Win More Leads</span> <span className="hl u">&amp;</span> Jobs</h1>
+            <h1>Helping Tradespeople <span className="hl">Win More Leads</span> <span className="u">&amp;</span> Jobs</h1>
             <p className="lede"><b style={{ color: '#fff' }}>Start Getting More Calls. Start Ranking Higher on Google. Start Winning Jobs Over Your Competition.</b></p>
             <div className="hero-cta">
               <a href="#contact" className="btn btn-primary">Start Getting Leads <span className="arr">↗</span></a>
